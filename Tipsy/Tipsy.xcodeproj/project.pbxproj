@@ -57,8 +57,9 @@
 		BC904BB71B8441830003112E /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC904B921B8441830003112E /* TransitionManager.swift */; };
 		BC904BB81B8441830003112E /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC904B931B8441830003112E /* TransitionZoom.swift */; };
 		BC904BB91B8441830003112E /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC904B941B8441830003112E /* UnwindSegue.swift */; };
-		BC904BBB1B8448620003112E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BC904BBA1B8448620003112E /* bg.png */; };
 		BC904BC31B84E64D0003112E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC904BC21B84E64D0003112E /* QuartzCore.framework */; };
+		BCE810DE1B9A336F00AB6F6E /* clear2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE810DD1B9A336F00AB6F6E /* clear2.png */; };
+		BCE810E01B9A33D400AB6F6E /* clear3.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE810DF1B9A33D400AB6F6E /* clear3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,8 +128,9 @@
 		BC904B921B8441830003112E /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		BC904B931B8441830003112E /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		BC904B941B8441830003112E /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
-		BC904BBA1B8448620003112E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../../Desktop/bg.png; sourceTree = "<group>"; };
 		BC904BC21B84E64D0003112E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCE810DD1B9A336F00AB6F6E /* clear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear2.png; sourceTree = "<group>"; };
+		BCE810DF1B9A33D400AB6F6E /* clear3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,8 +245,9 @@
 				BC6D0CA61B85912400836652 /* 20%-5.png */,
 				BC6D0CA41B8590EA00836652 /* 20%-4.png */,
 				BC6D0C9D1B858C8300836652 /* 15%-3.png */,
-				BC904BBA1B8448620003112E /* bg.png */,
+				BCE810DD1B9A336F00AB6F6E /* clear2.png */,
 				BC904B751B8441830003112E /* Delete.png */,
+				BCE810DF1B9A33D400AB6F6E /* clear3.png */,
 			);
 			name = img;
 			path = ../../../../.Trash/Tipsy/img;
@@ -375,18 +378,19 @@
 				BC904B521B8440D50003112E /* Main.storyboard in Resources */,
 				BC6D0CA51B8590EA00836652 /* 20%-4.png in Resources */,
 				BC6D0CA01B858C8300836652 /* 18%-2.png in Resources */,
-				BC904BBB1B8448620003112E /* bg.png in Resources */,
 				BC6D0C9F1B858C8300836652 /* 18%-3.png in Resources */,
 				BC6D0C991B858ADA00836652 /* 15%-2.png in Resources */,
 				BC904B971B8441830003112E /* Apercu-Mono.otf in Resources */,
 				BC904B571B8440D50003112E /* LaunchScreen.xib in Resources */,
 				BC904B9C1B8441830003112E /* Delete.png in Resources */,
+				BCE810DE1B9A336F00AB6F6E /* clear2.png in Resources */,
 				BC6D0C9E1B858C8300836652 /* 20%-2.png in Resources */,
 				BC904BA91B8441830003112E /* Info.plist in Resources */,
 				BC904BAC1B8441830003112E /* LoadingView.xib in Resources */,
 				BC904B541B8440D50003112E /* Images.xcassets in Resources */,
 				BC904B961B8441830003112E /* Apercu-Medium.otf in Resources */,
 				BC6D0CA11B858C8300836652 /* 15%-3.png in Resources */,
+				BCE810E01B9A33D400AB6F6E /* clear3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
