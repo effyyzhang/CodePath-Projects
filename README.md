@@ -16,3 +16,8 @@ Note: Spend a lot of time on customize the segmentedControl.
 
 Walkthrough of all user stories:
 ![alt tag](http://33.media.tumblr.com/00fd146364e66d56a8cad946147ff058/tumblr_ntd8cjQfoQ1scweygo1_1280.gif)
+
+Version 2: Tip+
+- Add FadeIn animation on Editting Change
+Walkthrough of all user stories:
+![alt tag](https://33.media.tumblr.com/60680c1dd615adc143eb4aff23982a00/tumblr_nu6upu16AC1scweygo1_400.gif)
