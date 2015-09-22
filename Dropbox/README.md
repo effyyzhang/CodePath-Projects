@@ -1,10 +1,11 @@
 # Dropbox onboarding Demo
 
-This is CodePath Week1 assignment - Dropbox Onboarding Demo. 
+This is CodePath Week1 Assignment - Dropbox Demo. 
 
-### Time spent: about 11h in total.
+##### Time spent: 
+about 11h in total.
 
-### Completed user stories:
+##### Completed user stories:
 - User can tap through the 3 welcome screens.
 - User can follow the create user flow.
 - On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
@@ -16,9 +17,9 @@ This is CodePath Week1 assignment - Dropbox Onboarding Demo.
 - User can log out from the Settings screen.
 - Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
 
-### Notes:
+##### Notes:
 - Still a little bit confused about the Navigation bar. I edit the back button content but some screen doesn't change. 
 - Failed to use Swipe guesture for the welcome screen. 
 
-### Walkthrough of all user stories:
-[https://33.media.tumblr.com/1b1199a8687f87da5249ff2314663b85/tumblr_nv2eajLFhn1scweygo1_400.gif]
+##### Walkthrough of all user stories:
+![alt tag][https://33.media.tumblr.com/1b1199a8687f87da5249ff2314663b85/tumblr_nv2eajLFhn1scweygo1_400.gif]
