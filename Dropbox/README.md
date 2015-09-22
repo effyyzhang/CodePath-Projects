@@ -22,4 +22,4 @@ about 11h in total.
 - Failed to use Swipe guesture for the welcome screen. 
 
 ##### Walkthrough of all user stories:
-![https://33.media.tumblr.com/1b1199a8687f87da5249ff2314663b85/tumblr_nv2eajLFhn1scweygo1_400.gif]
+!![alt tag](https://33.media.tumblr.com/1b1199a8687f87da5249ff2314663b85/tumblr_nv2eajLFhn1scweygo1_400.gif)
