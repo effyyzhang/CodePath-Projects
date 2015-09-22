@@ -195,6 +195,7 @@
 		BCE810E21B9A877A00AB6F6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Effy Zhang";
 				TargetAttributes = {
@@ -455,6 +456,7 @@
 				BCE8110B1B9A877A00AB6F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE8110C1B9A877A00AB6F6E /* Build configuration list for PBXNativeTarget "TipplusTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +465,7 @@
 				BCE8110E1B9A877A00AB6F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
