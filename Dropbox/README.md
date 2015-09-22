@@ -22,4 +22,6 @@ about 11h in total.
 - Failed to use Swipe guesture for the welcome screen. 
 
 ##### Walkthrough of all user stories:
+![dropbox](https://cloud.githubusercontent.com/assets/4413445/10012268/389a151a-60bb-11e5-8a2f-fbfbe8c0a057.gif)
+
 
