@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Mailbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="menu" id="E2j-jP-lIU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="wsJ-ZK-yOq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="8ll-fN-34t">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="FBn-mx-sod">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" id="b3t-nG-XUC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <subviews>
+                                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="sc1-cc-JbM">
+                                                                <rect key="frame" x="0.0" y="150" width="320" height="711"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <subviews>
+                                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="feed" id="hc6-1U-7hb">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1202"/>
+                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                    </imageView>
+                                                                    <view contentMode="scaleToFill" id="6hD-Pf-Yah">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <subviews>
+                                                                            <view contentMode="scaleToFill" id="isJ-7i-6XS">
+                                                                                <rect key="frame" x="255" y="0.0" width="320" height="86"/>
+                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                <subviews>
+                                                                                    <view contentMode="scaleToFill" id="Zu8-vA-qxQ">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                        <color key="backgroundColor" red="0.84705882352941175" green="0.65098039215686276" blue="0.45882352941176469" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                    </view>
+                                                                                    <view contentMode="scaleToFill" id="l8c-s4-nWA">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                        <color key="backgroundColor" red="1" green="0.82745098039215681" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                    </view>
+                                                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="later_icon" id="ssg-3T-97k">
+                                                                                        <rect key="frame" x="25" y="30" width="25" height="25"/>
+                                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                                    </imageView>
+                                                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="list_icon" id="0sK-Hm-rOO">
+                                                                                        <rect key="frame" x="25" y="31" width="25" height="25"/>
+                                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                                    </imageView>
+                                                                                </subviews>
+                                                                                <color key="backgroundColor" red="0.8980392157" green="0.90196078430000004" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            </view>
+                                                                            <view contentMode="scaleToFill" id="N7z-vo-YKS">
+                                                                                <rect key="frame" x="-255" y="0.0" width="320" height="86"/>
+                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                <subviews>
+                                                                                    <view contentMode="scaleToFill" id="LO8-3c-bIR">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                        <color key="backgroundColor" red="0.93725490196078431" green="0.32941176470588235" blue="0.047058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                    </view>
+                                                                                    <view contentMode="scaleToFill" id="qed-Bd-Mo1">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                        <color key="backgroundColor" red="0.38431372549999998" green="0.85098039219999999" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                    </view>
+                                                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="archive_icon" id="B09-V6-UJV">
+                                                                                        <rect key="frame" x="275" y="31" width="25" height="25"/>
+                                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                                    </imageView>
+                                                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="delete_icon" id="ofL-8q-HCD">
+                                                                                        <rect key="frame" x="275" y="31" width="25" height="25"/>
+                                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                                    </imageView>
+                                                                                </subviews>
+                                                                                <color key="backgroundColor" red="0.8980392157" green="0.90196078430000004" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            </view>
+                                                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="message" id="883-5N-96F">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                                <gestureRecognizers/>
+                                                                                <connections>
+                                                                                    <outletCollection property="gestureRecognizers" destination="9h7-04-eOG" appends="YES" id="dJz-qt-H48"/>
+                                                                                </connections>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    </view>
+                                                                </subviews>
+                                                            </scrollView>
+                                                            <view contentMode="scaleToFill" id="ZOW-i7-cfF">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help me Get to Zero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ohH-w9-3gb">
+                                                                        <rect key="frame" x="84" y="79" width="155" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                        <color key="textColor" red="0.26666666666666666" green="0.66666666666666663" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="search" id="AED-de-VFS">
+                                                                        <rect key="frame" x="0.0" y="100" width="320" height="42"/>
+                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                    </imageView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </view>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="ArchiveList" id="hgh-aB-vNm">
+                                                        <rect key="frame" x="320" y="0.0" width="320" height="568"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="ReminderList" id="RoO-9F-A7J">
+                                                        <rect key="frame" x="-320" y="0.0" width="320" height="568"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </scrollView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="nav" id="YX7-lO-E9E">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="fHb-zi-Rez">
+                                        <rect key="frame" x="65" y="25" width="189" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="" image="later_icon"/>
+                                            <segment title="" image="mail_nav_icon"/>
+                                            <segment title="" image="archive_icon"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.26666666666666666" green="0.66666666666666663" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="onValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ar0-Im-NEj"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FdZ-fC-eHo">
+                                        <rect key="frame" x="8" y="25" width="39" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="onButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DNr-IJ-OJd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Of8-Ra-tBt">
+                                        <rect key="frame" x="273" y="23" width="39" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="onComposeButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="POk-sV-rRR"/>
+                                        </connections>
+                                    </button>
+                                    <view alpha="0.10000000000000001" contentMode="scaleToFill" id="hA4-0d-TIP">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="kYf-ZT-J6a">
+                                        <rect key="frame" x="0.0" y="568" width="320" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="NewMessage" id="CJV-G0-Bm6">
+                                                <rect key="frame" x="0.0" y="0.0" width="322" height="263"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qu0-dc-r8s">
+                                                <rect key="frame" x="0.0" y="7" width="69" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="onCancelClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="diU-YH-73g"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" id="2r2-vc-fzl">
+                                                <rect key="frame" x="8" y="47" width="304" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" id="RYo-eH-GVH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="reschedule" id="pWb-uw-rit">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bsm-qM-Laj">
+                                        <rect key="frame" x="115" y="110" width="91" height="106"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="onRescheduleClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="csp-Ja-t7U"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="SegmentedControl" destination="fHb-zi-Rez" id="gZd-DG-dIr"/>
+                        <outlet property="allViews" destination="8ll-fN-34t" id="deH-w9-Mw0"/>
+                        <outlet property="archiveIconView" destination="B09-V6-UJV" id="6GO-Oe-QTa"/>
+                        <outlet property="cancelButton" destination="qu0-dc-r8s" id="Tmt-pt-OEP"/>
+                        <outlet property="composeBackground" destination="hA4-0d-TIP" id="ets-ow-aMf"/>
+                        <outlet property="composeButton" destination="Of8-Ra-tBt" id="Sqe-ud-e6M"/>
+                        <outlet property="composeView" destination="kYf-ZT-J6a" id="Igv-ku-7RR"/>
+                        <outlet property="deleteIconView" destination="ofL-8q-HCD" id="uej-is-hUe"/>
+                        <outlet property="feedView" destination="hc6-1U-7hb" id="Dug-ea-AsG"/>
+                        <outlet property="firstView" destination="wsJ-ZK-yOq" id="qW9-YD-8u1"/>
+                        <outlet property="laterIconView" destination="ssg-3T-97k" id="kfY-N0-eCD"/>
+                        <outlet property="leftBackground" destination="qed-Bd-Mo1" id="fcs-55-Cd0"/>
+                        <outlet property="leftBackground2" destination="LO8-3c-bIR" id="plc-gQ-rex"/>
+                        <outlet property="leftView" destination="N7z-vo-YKS" id="RXK-QW-wUw"/>
+                        <outlet property="listIconView" destination="0sK-Hm-rOO" id="2oI-qV-hbG"/>
+                        <outlet property="menuButton" destination="FdZ-fC-eHo" id="XdX-ZX-4fa"/>
+                        <outlet property="messageView" destination="883-5N-96F" id="ZAY-bF-De8"/>
+                        <outlet property="panGestureRecognizer" destination="9h7-04-eOG" id="R4l-dS-Vsu"/>
+                        <outlet property="rescheduleButton" destination="Bsm-qM-Laj" id="I6z-9Y-jh3"/>
+                        <outlet property="rescheduleListView" destination="RYo-eH-GVH" id="ZHO-xb-ORY"/>
+                        <outlet property="rescheduleView" destination="pWb-uw-rit" id="pRT-2y-E9n"/>
+                        <outlet property="rightBackground" destination="l8c-s4-nWA" id="KgY-fL-Gyh"/>
+                        <outlet property="rightBackground2" destination="Zu8-vA-qxQ" id="Ajm-hi-wZa"/>
+                        <outlet property="rightView" destination="isJ-7i-6XS" id="8YJ-Vz-zxL"/>
+                        <outlet property="scrollView" destination="sc1-cc-JbM" id="sWg-no-7tw"/>
+                        <outlet property="scrollView2" destination="FBn-mx-sod" id="o95-Z0-Lcn"/>
+                        <outlet property="textField" destination="2r2-vc-fzl" id="hl4-th-fWd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="9h7-04-eOG">
+                    <connections>
+                        <action selector="onPan:" destination="BYZ-38-t0r" id="PCB-Sf-4Ai"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="158" y="406"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ArchiveList" width="320" height="568"/>
+        <image name="NewMessage" width="322" height="263"/>
+        <image name="ReminderList" width="320" height="568"/>
+        <image name="archive_icon" width="25" height="25"/>
+        <image name="delete_icon" width="25" height="25"/>
+        <image name="feed" width="320" height="1202"/>
+        <image name="later_icon" width="25" height="25"/>
+        <image name="list_icon" width="25" height="25"/>
+        <image name="mail_nav_icon" width="25" height="20"/>
+        <image name="menu" width="320" height="568"/>
+        <image name="message" width="320" height="86"/>
+        <image name="nav" width="320" height="65"/>
+        <image name="reschedule" width="320" height="568"/>
+        <image name="search" width="320" height="42"/>
+    </resources>
+</document>
